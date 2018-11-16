@@ -12,7 +12,6 @@
 /spec/*~
 /bin/*~
 
-codigo.rb
 do.rb
 nodo.rb
 o2.rb
