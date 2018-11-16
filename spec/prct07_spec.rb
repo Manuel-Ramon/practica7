@@ -29,4 +29,12 @@ context ListaDoble do
 		end
 	end
 
+	#Bloque pruebas 3
+	describe "Recorre nodo drc a izq" do
+		it "Valores nodo 2" do
+			expect(@l1.mostrar_val_atras).to eq("*Nombre: Bolachas\n*Grasas: 22\n*Grasas saturadas: 33\n*Hidratos: 44\n*Azucares: 55\n*Proeinas: 66\n*Sal: 77")
+		end
+	end
+
+
 end
