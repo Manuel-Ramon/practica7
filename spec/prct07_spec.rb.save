@@ -1,0 +1,26 @@
+
+#Para que vaya a buscar el fichero prct07.rb que contiene a su vez
+#los require para el codigo.rb sobre el que hacer pruebas y el versio.rb
+require 'lib/prct07'
+
+
+context ListaDoble do
+
+	#En cada prueba debo crear un objeto de tipo ListaDoble y además inicializa
+	#el primer nodo con los datos de una etiqueta nutricional
+        before :each do
+                @l1 = ListaDoble.new("Galletas",23,11,66,37,10,1)
+        end
+
+
+	#Bloque pruebas 1
+	describe Probar si el metodo add funciona" do
+		#Prueba spec metodo añadir nuevo nodo
+		#Si añado un nuevo nodo la cuenta total de instanciación
+		#de la clase debería aumentar en 2+, como cuando se usa
+		#el initialize el valor toma 1, el valor con un metodo add
+		#debe ser mayor de 1
+		expect(@l1.).to be >= 2
+	end
+
+end
