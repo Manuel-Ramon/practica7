@@ -13,4 +13,12 @@ context ListaDoble do
         end
 
 
+	#Bloque pruebas 1
+	describe "Comprobar valores devolución nodo etiqueta insertada" do
+		#Prueba spec metodo añadir nuevo nodo
+		it "Valores nuevo nodo" do
+			expect(@l1.add("Bolachas",22,33,44,55,66,77)).to eq("*Nobre")
+		end
+	end
+
 end
